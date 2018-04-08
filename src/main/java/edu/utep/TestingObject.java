@@ -31,7 +31,7 @@ public class TestingObject {
                     returnValue = -1;
                 } else if (in > 0) {
                     returnValue = 1;
-                } else if (in == 0) {
+                } else  {
                     returnValue = 0;
                 }
                 break;

@@ -45,6 +45,7 @@ public class AppTest
         assertEquals(2, testingObject.inAndOutTester(1,2));
         assertEquals(3, testingObject.inAndOutTester(1,3));
         assertEquals(4, testingObject.inAndOutTester(1,4));
+        assertEquals(0, testingObject.inAndOutTester(1,5));
 
     }
     public void testApp2() {
@@ -59,6 +60,7 @@ public class AppTest
         assertEquals(31, testingObject.inAndOutTester(3,1));
         assertEquals(32, testingObject.inAndOutTester(3,2));
         assertEquals(33, testingObject.inAndOutTester(3,3));
+        assertEquals(0, testingObject.inAndOutTester(3,4));
 
     }
     public void testApp4() {
